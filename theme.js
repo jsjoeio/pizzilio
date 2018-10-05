@@ -1,7 +1,20 @@
 import theme from 'mdx-deck/themes'
+import WebFont from 'webfontloader';
+
+WebFont.load({
+  google: {
+    families: ['Press Start 2P', 'cursive']
+  }
+});
 
 export default {
   ...theme,
+  font: `"Press Start 2P"`,
+  colors: {
+    text: '#FFF',
+    background: '#EE324A',
+    link: '#0ff',
+  }
 
   // Customize your presentation theme here.
   //
