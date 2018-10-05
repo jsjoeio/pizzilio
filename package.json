@@ -10,10 +10,13 @@
     "help": "mdx-deck"
   },
   "keywords": [],
-  "author": "Brent Jackson",
+  "author": "Joe Previte",
   "license": "MIT",
   "devDependencies": {
     "mdx-deck": "^1.6.7"
   },
-  "name": "pizzilio"
+  "name": "pizzilio",
+  "dependencies": {
+    "styled-components": "^3.4.9"
+  }
 }
